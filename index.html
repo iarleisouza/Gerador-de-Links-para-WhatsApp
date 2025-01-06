@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Links para WhatsApp</h1>
+
+<form id="whatsappForm">
+  <label for="phoneNumber">Número de Telefone (com código do país):</label>
+  <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Ex: 5511999999999" required />
+
+  <label for="message">Mensagem:</label>
+  <input type="text" id="message" name="message" placeholder="Digite sua mensagem" required />
+
+  <button type="button" onclick="generateWhatsAppLink()">Gerar Links</button>
+</form>
+
+<div id="result"></div>
+
+<script src="index.js"></script>
+</body>
+</html>
